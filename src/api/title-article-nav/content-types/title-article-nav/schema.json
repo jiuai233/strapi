@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "title_article_navs",
+  "info": {
+    "singularName": "title-article-nav",
+    "pluralName": "title-article-navs",
+    "displayName": "TitleArticleNav"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TitleArticleNavItem": {
+      "type": "string"
+    }
+  }
+}

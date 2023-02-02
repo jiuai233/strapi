@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "title_tab_navs",
+  "info": {
+    "singularName": "title-tab-nav",
+    "pluralName": "title-tab-navs",
+    "displayName": "TitleTabNav"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TitleTabNavItem": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "TitleTabNavItemContent": {
+      "type": "string"
+    }
+  }
+}
